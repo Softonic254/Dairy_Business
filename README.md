@@ -18,6 +18,6 @@ To acces this project, you need to clone it using these steps
 5. Javascript
 4. Git
 ### Live Site
-View [live](https://softonic254.github.io/My-Favorite-Band-Project/)
+View [live](https://softonic254.github.io/Dairy_Business/)
 ### Licence
 This project is under the  [MIT](LICENCE) licence.
