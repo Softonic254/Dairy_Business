@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/cow2.jpg);
+    background-image: url(images/cow1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,13 @@ h1 {
     font-size: 33px;
 }
 
+#header{
+    background-attachment: fixed;
+    background-color: cornsilk;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
 .table1 {
     margin: auto;
     margin-top: 2%;
@@ -21,19 +28,22 @@ h1 {
     box-shadow: 0px 0px 5px 5px gray;
     text-align: center;
     font-weight: 700;
-    background-color: rgb(206, 224, 206);
+    background-color: rgb(198, 231, 198);
     margin-bottom: 5px;
     border-radius: 2px;
     padding: 10px;
+    width: 700px;
+    height: 350px;
 }
 
 #table2, #table3 {
-    background-color: rgb(226, 255, 223);
+    background-color: rgb(242, 255, 253);
     border-radius: 5px;
     border: 1px solid rgb(99, 124, 99);
     padding: 10px;
     margin: 2px;
     box-shadow: 0px 0px 3px 3px grey;
+    font-family: serif;
 }
 
 #btns {
@@ -42,31 +52,24 @@ h1 {
     border-radius: 3px;
 }
 
-#btns>#btn {
+
+#btns>#btn, #btns>#income, #btns>#monthly {
     background-color: green;
     padding: 4px;
     border-radius: 3px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
+    font-family: cursive;
+    border: none;
 }
 
-#btns>#income {
-    background-color: green;
-    padding: 4px;
-    border-radius: 3px;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-#btns>#monthly {
-    background-color: green;
-    padding: 4px;
-    border-radius: 3px;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
+#btns>#btn:hover,#btns #income:hover, #btns #monthly:hover{
+    background-color: cadetblue;
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    font-size: 17px;
 }
 
 .align {
@@ -77,20 +80,21 @@ h1 {
 }
 
 .shed_a, .shed_b, .shed_c, .shed_d {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
 input {
     opacity: 0.6;
+    height: 22px;
 }
 
 input:hover {
     border: 2px solid green;
     border-radius: 2px;
-    height: 16px;
-    background-color: rgb(131, 221, 217);
+    height: 23px;
+    background-color: rgb(183, 235, 232);
 }
 
 h2 {
@@ -100,14 +104,28 @@ h2 {
 }
 
 #clear {
-    margin-left: 630px;
-    background-color: red;
+    background-color: lightseagreen;
     padding: 5px;
     border-radius: 4px;
     border: none;
+    font-size: 14px;
     margin-bottom: 5px;
     margin-top: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-style: italic;
+    font-weight: 700;
 }
+
+#clear:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 105%;
+    padding: 3px;
+}
+
 
 #table2 {
     margin-right: 8px;
