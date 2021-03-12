@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy business</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="dailycollections.js"></script>
+
+</head>
+
+<body>
+    <h1>DAIRY BUSINESS</h1>
+    <table class="table1">
+        <th class="image" colspan="3"><img src="images/cow31.jpg" alt="Dairy cow" width="550px" height="200px"></th>
+        <tr id="tablerow">
+            <td>
+                <div class="shed_a">
+                    <label for="shed_a">Shed A</label>
+                    <input type="number" id="shed_A" name="shed_A" placeholder="123" required />
+                </div>
+
+                <div class="shed_b">
+                    <label for="shed_b">Shed B</label>
+                    <input type="number" id="shed_B" name="shed_B" placeholder="123" required />
+                </div>
+
+                <div class="shed_c">
+                    <label for="shed_c">Shed C</label>
+                    <input type="number" id="shed_C" name="shed_C" placeholder="123" required />
+                </div>
+                <div class="shed_d">
+                    <label for="shed_d">Shed D</label>
+                    <input type="number" id="shed_D" name="shed_D" placeholder="123" required />
+                </div>
+                <div id="btns">
+                    <button onclick="dairyRec();" id="btn">View output per shed</button>
+                    <button onclick="calculate()" id="income">View income</button>
+                    <button onclick="monthly()" id="monthly">View monthly income</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <button id="clear" value="clear" onclick="reset()">CLEAR</button>
+
+    <div class="align">
+        <table id="table2">
+            <tr>
+                <td>
+                    <div id="shedRec">
+                        <h2 id="shedsRec"></h2>
+                        <p id="shed_a"></p>
+                        <p id="shed_b"></p>
+                        <p id="shed_c"></p>
+                        <p id="shed_d"></p>
+                        <p id="total"></p>
+                    </div>
+
+                    <div id="weekly1">
+                        <h2 id="wkincome"></h2>
+                        <p id="weekly"></p>
+                        <p id="yearly"></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table id="table3">
+            <tr>
+                <td>
+                    <div id="income">
+                        <h2 id="Monthlyincome"></h2>
+                        <p id="jan"></p>
+                        <p id="feb"></p>
+                        <p id="mar"></p>
+                        <p id="apr"></p>
+                        <p id="may"></p>
+                        <p id="june"></p>
+                        <p id="july"></p>
+                        <p id="aug"></p>
+                        <p id="sep"></p>
+                        <p id="oct"></p>
+                        <p id="nov"></p>
+                        <p id="dec"></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
