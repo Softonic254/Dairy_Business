@@ -77,6 +77,7 @@ function monthly() {
     sC = parseFloat(shedC);
     sD = parseFloat(shedD);
 
+    
     var arraySheds = [sA, sB, sC, sD];
     var dailytotals = arraySheds[0] + arraySheds[1] + arraySheds[2] + arraySheds[3];
 
