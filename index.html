@@ -13,9 +13,13 @@
 </head>
 
 <body>
-    <h1>DAIRY BUSINESS</h1>
+
     <table class="table1">
-        <th class="image" colspan="3"><img src="images/cow31.jpg" alt="Dairy cow" width="550px" height="200px"></th>
+        <div id="header">
+            <h1>DAIRY BUSINESS</h1>
+        </div>
+        
+        <th class="image" colspan="3"><img src="images/face1.jpg" alt="Dairy cow" width="700px" height="300px"></th>
         <tr id="tablerow">
             <td>
                 <div class="shed_a">
@@ -38,18 +42,22 @@
                 </div>
 
                 <div id="btns">
-                    
+
                     <button onclick="dairyRec();" id="btn">View output per shed</button>
                     <button onclick="calculate()" id="income">View income</button>
                     <button onclick="monthly()" id="monthly">View monthly income</button>
-                
+                    <button id="clear" value="clear" onclick="reset()">REFRESH</button>
+
                 </div>
 
             </td>
         </tr>
     </table>
+    <div id="guide">
+        This website will help you track the perfomance of you dairy farm. It so simple. Just fill the amount of litres per shed and click the buttons depending on what you what to see.
+    </div>
 
-    <button id="clear" value="clear" onclick="reset()">CLEAR</button>
+
 
     <div class="align">
         <table id="table2">
