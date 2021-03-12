@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(images/cow2.jpg);
     background-position: center;
     background-size: cover;
@@ -6,13 +6,11 @@ body{
     background-attachment: fixed;
 }
 
-
 h1 {
     text-align: center;
     text-shadow: 2px 2px 3px green;
     color: indigo;
     font-size: 33px;
-
 }
 
 .table1 {
@@ -28,7 +26,6 @@ h1 {
     border-radius: 2px;
     padding: 10px;
 }
-
 
 #table2, #table3 {
     background-color: rgb(226, 255, 223);
@@ -85,24 +82,24 @@ h1 {
     font-size: 16px;
 }
 
-input{
+input {
     opacity: 0.6;
 }
 
-input:hover{
+input:hover {
     border: 2px solid green;
     border-radius: 2px;
     height: 16px;
     background-color: rgb(131, 221, 217);
 }
 
-h2{
+h2 {
     color: blue;
     text-decoration: underline;
     font-family: serif;
 }
 
-#clear{
+#clear {
     margin-left: 630px;
     background-color: red;
     padding: 5px;
@@ -112,12 +109,12 @@ h2{
     margin-top: 5px;
 }
 
-#table2{
+#table2 {
     margin-right: 8px;
 }
 
 @media only screen and (min-width: 600px) {
-    body{
+    body {
         float: none;
     }
-  }
+}
