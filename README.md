@@ -15,7 +15,8 @@ To acces this project, you need to clone it using these steps
 ### Technologies Used
 1. HTML
 2. CSS
-3. Git
+5. Javascript
+4. Git
 ### Live Site
 View [live](https://softonic254.github.io/My-Favorite-Band-Project/)
 ### Licence
