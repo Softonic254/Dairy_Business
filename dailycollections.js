@@ -54,6 +54,7 @@ function calculate() {
     var weekly = dailytotals * 7;
     var yearly = dailytotals * 365;
 
+    
     if (isNaN(sA) || isNaN(sB) || isNaN(sC) | isNaN(sD)) {
         alert("Incomplete/No records found");
     } else {
@@ -77,7 +78,7 @@ function monthly() {
     sC = parseFloat(shedC);
     sD = parseFloat(shedD);
 
-    
+
     var arraySheds = [sA, sB, sC, sD];
     var dailytotals = arraySheds[0] + arraySheds[1] + arraySheds[2] + arraySheds[3];
 
