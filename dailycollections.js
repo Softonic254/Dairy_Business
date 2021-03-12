@@ -54,13 +54,15 @@ function calculate() {
     var weekly = dailytotals * 7;
     var yearly = dailytotals * 365;
 
-    
+
     if (isNaN(sA) || isNaN(sB) || isNaN(sC) | isNaN(sD)) {
         alert("Incomplete/No records found");
     } else {
+        
         document.getElementById("wkincome").innerHTML = "Weekly and yearly income"
         document.getElementById("weekly").innerHTML = "Your weekly production is " + weekly + " litres.";
         document.getElementById("yearly").innerHTML = "Your yearly production will be " + yearly + " litres.";
+    
     }
 
 }
