@@ -28,11 +28,11 @@ function dairyRec() {
         alert("Incomplete/No records found");
     } else {
         document.getElementById("shedsRec").innerHTML = "Production per shed."
-        document.getElementById("shed_a").innerHTML = "Your production for shed A is " + arraySheds[0] + " litres."
-        document.getElementById("shed_b").innerHTML = "Your production for shed B is " + arraySheds[1] + " litres."
-        document.getElementById("shed_c").innerHTML = "Your production for shed C is " + arraySheds[2] + " litres."
-        document.getElementById("shed_d").innerHTML = "Your production for shed D is " + arraySheds[3] + " litres."
-        document.getElementById("total").innerHTML = "Your total production in all sheds is " + dailytotals + " litres."
+        document.getElementById("shed_a").innerHTML = "Your production for shed A is " + arraySheds[0] + " litres per day."
+        document.getElementById("shed_b").innerHTML = "Your production for shed B is " + arraySheds[1] + " litres per day."
+        document.getElementById("shed_c").innerHTML = "Your production for shed C is " + arraySheds[2] + " litres per day."
+        document.getElementById("shed_d").innerHTML = "Your production for shed D is " + arraySheds[3] + " litres per day."
+        document.getElementById("total").innerHTML = "Your total production in all sheds is " + dailytotals + " litres per day."
     }
 
 }
@@ -61,8 +61,8 @@ function calculate() {
         }
 
         document.getElementById("wkincome").innerHTML = "Weekly and yearly income"
-        document.getElementById("weekly").innerHTML = "Your weekly production is Kshs." + calc(45, 7) + ".";
-        document.getElementById("yearly").innerHTML = "Your yearly production will be Kshs." + calc(45, 366) + ".";
+        document.getElementById("weekly").innerHTML = "Your weekly income will be Kshs." + calc(45, 7) + ".";
+        document.getElementById("yearly").innerHTML = "Your yearly income will be Kshs." + calc(45, 366) + ".";
 
     }
 
@@ -104,7 +104,7 @@ function monthly() {
         document.getElementById("sep").innerHTML = "Your income for the month of " + month[8] + " will be " + calc(31) + " litres.";
         document.getElementById("oct").innerHTML = "Your income for the month of " + month[9] + " will be " + calc(30) + " litres.";
         document.getElementById("nov").innerHTML = "Your income for the month of " + month[10] + " will be " + calc(31) + " litres.";
-        document.getElementById("dec").innerHTML = "Your income for the month of " + month[11] + " will be " + calc30 + " litres.";
+        document.getElementById("dec").innerHTML = "Your income for the month of " + month[11] + " will be " + calc(30) + " litres.";
     }
 
 }
