@@ -51,17 +51,18 @@ function calculate() {
     var arraySheds = [sA, sB, sC, sD];
     var dailytotals = arraySheds[0] + arraySheds[1] + arraySheds[2] + arraySheds[3];
 
-    var weekly = dailytotals * 7;
-    var yearly = dailytotals * 365;
-
 
     if (isNaN(sA) || isNaN(sB) || isNaN(sC) | isNaN(sD)) {
         alert("Incomplete/No records found");
     } else {
 
+        function calc(selling_price, time) {
+            return selling_price * time * dailytotals;
+        }
+
         document.getElementById("wkincome").innerHTML = "Weekly and yearly income"
-        document.getElementById("weekly").innerHTML = "Your weekly production is " + weekly + " litres.";
-        document.getElementById("yearly").innerHTML = "Your yearly production will be " + yearly + " litres.";
+        document.getElementById("weekly").innerHTML = "Your weekly production is Kshs." + calc(45, 7) + ".";
+        document.getElementById("yearly").innerHTML = "Your yearly production will be Kshs." + calc(45, 366) + ".";
 
     }
 
@@ -84,25 +85,26 @@ function monthly() {
     var arraySheds = [sA, sB, sC, sD];
     var dailytotals = arraySheds[0] + arraySheds[1] + arraySheds[2] + arraySheds[3];
 
-    var one = 31 * dailytotals;
-    var zero = 30 * dailytotals;
+    function calc(time) {
+        return time * dailytotals;
+    };
 
     if (isNaN(sA) || isNaN(sB) || isNaN(sC) | isNaN(sD)) {
         alert("Incomplete/No records found");
     } else {
         document.getElementById("Monthlyincome").innerHTML = "Monthly output"
-        document.getElementById("jan").innerHTML = "Your income for the month of " + month[0] + " will be " + one + " litres.";
-        document.getElementById("feb").innerHTML = "Your income for the month of " + month[1] + " will be " + zero + " litres.";
-        document.getElementById("mar").innerHTML = "Your income for the month of " + month[2] + " will be " + one + " litres.";
-        document.getElementById("apr").innerHTML = "Your income for the month of " + month[3] + " will be " + zero + " litres.";
-        document.getElementById("may").innerHTML = "Your income for the month of " + month[4] + " will be " + one + " litres.";
-        document.getElementById("june").innerHTML = "Your income for the month of " + month[5] + " will be " + zero + " litres.";
-        document.getElementById("july").innerHTML = "Your income for the month of " + month[6] + " will be " + one + " litres.";
-        document.getElementById("aug").innerHTML = "Your income for the month of " + month[7] + " will be " + zero + " litres.";
-        document.getElementById("sep").innerHTML = "Your income for the month of " + month[8] + " will be " + one + " litres.";
-        document.getElementById("oct").innerHTML = "Your income for the month of " + month[9] + " will be " + zero + " litres.";
-        document.getElementById("nov").innerHTML = "Your income for the month of " + month[10] + " will be " + one + " litres.";
-        document.getElementById("dec").innerHTML = "Your income for the month of " + month[11] + " will be " + zero + " litres.";
+        document.getElementById("jan").innerHTML = "Your income for the month of " + month[0] + " will be " + calc(31) + " litres.";
+        document.getElementById("feb").innerHTML = "Your income for the month of " + month[1] + " will be " + calc(29) + " litres.";
+        document.getElementById("mar").innerHTML = "Your income for the month of " + month[2] + " will be " + calc(31) + " litres.";
+        document.getElementById("apr").innerHTML = "Your income for the month of " + month[3] + " will be " + calc(30) + " litres.";
+        document.getElementById("may").innerHTML = "Your income for the month of " + month[4] + " will be " + calc(31) + " litres.";
+        document.getElementById("june").innerHTML = "Your income for the month of " + month[5] + " will be " + calc(30) + " litres.";
+        document.getElementById("july").innerHTML = "Your income for the month of " + month[6] + " will be " + calc(31) + " litres.";
+        document.getElementById("aug").innerHTML = "Your income for the month of " + month[7] + " will be " + calc(30) + " litres.";
+        document.getElementById("sep").innerHTML = "Your income for the month of " + month[8] + " will be " + calc(31) + " litres.";
+        document.getElementById("oct").innerHTML = "Your income for the month of " + month[9] + " will be " + calc(30) + " litres.";
+        document.getElementById("nov").innerHTML = "Your income for the month of " + month[10] + " will be " + calc(31) + " litres.";
+        document.getElementById("dec").innerHTML = "Your income for the month of " + month[11] + " will be " + calc30 + " litres.";
     }
 
 }
