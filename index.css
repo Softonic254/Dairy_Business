@@ -12,6 +12,9 @@ h1 {
     color: rgb(0, 0, 0);
     font-size: 33px;
 }
+h3{
+    color: darkslateblue;
+}
 
 #header {
     width: 100%;
@@ -24,7 +27,7 @@ h1 {
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     font-weight: 400;
 }
 
@@ -50,17 +53,17 @@ h1 {
     margin: 2px;
     box-shadow: 0px 0px 3px 3px grey;
     font-family: serif;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #btns {
-    background-color: lightgreen;
+    background-color: rgb(166, 197, 255);
     padding: 5px;
     border-radius: 3px;
 }
 
 #btns>#btn, #btns>#income, #btns>#monthly {
-    background-color: rgb(136, 199, 194);
+    background-color: rgb(185, 255, 249);
     padding: 7px;
     border-radius: 3px;
     color: black;
@@ -96,10 +99,11 @@ h1 {
 
 #guide {
     height: 350px;
-    width: 400px;
+    width: 450px;
     float: left;
+    text-align: right;
     font-size: 24px;
-    margin-left: 5px;
+    margin-left: 15px;
     top: 95px;
     background-color: rgb(152, 252, 255);
     opacity: 0.8;
@@ -127,8 +131,8 @@ h2 {
 }
 
 #clear {
-    background-color: lightseagreen;
-    padding: 5px;
+    background-color: rgb(54, 128, 87);
+    padding: 7px;
     border-radius: 4px;
     border: none;
     font-size: 14px;
@@ -146,7 +150,7 @@ h2 {
     font-weight: 700;
     font-style: italic;
     font-size: 105%;
-    padding: 3px;
+    padding: 7px;
 }
 
 #table2 {
@@ -164,6 +168,7 @@ h2 {
     font-style: italic;
     padding-top: 1px;
     padding-bottom: 1px;
+    color: black;
     font-weight: 300;
     letter-spacing: 2px;
 }
