@@ -18,7 +18,7 @@ h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #header {
@@ -51,7 +51,7 @@ p{
 }
 
 #table2, #table3 {
-    background-color: rgb(242, 255, 253);
+    background-color: rgb(208, 246, 255);
     border-radius: 5px;
     border: 1px solid rgb(99, 124, 99);
     padding: 10px;
@@ -112,7 +112,7 @@ p{
     text-align: right;
     font-size: 23px;
     margin-left: 15px;
-    top: 95px;
+    top: 170px;
     background-color: rgb(146, 205, 253);
     opacity: 0.8;
     padding: 20px;
