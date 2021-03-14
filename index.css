@@ -202,4 +202,8 @@ h2 {
     body {
         float: none;
     }
+    #table2, #table3 {
+        float: none;
+        width: auto;
+    }
 }
