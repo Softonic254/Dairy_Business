@@ -12,8 +12,13 @@ h1 {
     color: rgb(0, 0, 0);
     font-size: 33px;
 }
+
 h3{
     color: darkslateblue;
+}
+
+p{
+    font-size: 18px;
 }
 
 #header {
@@ -37,7 +42,7 @@ h3{
     border-collapse: collapse;
     box-shadow: 0px 0px 5px 5px gray;
     font-weight: 700;
-    background-color: rgb(166, 197, 255);
+    background-color: rgb(146, 205, 253);
     margin-bottom: 5px;
     border-radius: 2px;
     width: 700px;
@@ -57,7 +62,7 @@ h3{
 }
 
 #btns {
-    background-color: rgb(166, 197, 255);
+    background-color: rgb(146, 205, 253);
     padding: 5px;
     border-radius: 3px;
 }
@@ -105,14 +110,15 @@ h3{
     width: 450px;
     float: left;
     text-align: right;
-    font-size: 24px;
+    font-size: 23px;
     margin-left: 15px;
     top: 95px;
-    background-color: rgb(152, 252, 255);
+    background-color: rgb(146, 205, 253);
     opacity: 0.8;
     padding: 20px;
     box-shadow: 0px 0px 3px 4px lightslategray;
     position: fixed;
+    font-family: cursive;
 }
 
 input {
