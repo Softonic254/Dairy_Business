@@ -1,4 +1,9 @@
 
+var shedA;
+var shedB
+var shedC;
+var shedD;
+
 var sA;
 var sB;
 var sC;
@@ -21,10 +26,10 @@ var sheds = [{
 ]
 
 function dairyRec() {
-    shedA = document.getElementById(sheds[0]).value;
-    shedB = document.getElementById(sheds[1]).value;
-    shedC = document.getElementById(sheds[2]).value;
-    shedD = document.getElementById(sheds[3]).value;
+    shedA = document.getElementById('shed_A').value;
+    shedB = document.getElementById('shed_B').value;
+    shedC = document.getElementById('shed_C').value;
+    shedD = document.getElementById('shed_D').value;
 
     sA = parseFloat(shedA);
     sB = parseFloat(shedB);
